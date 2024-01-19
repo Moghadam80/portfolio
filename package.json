@@ -1,0 +1,29 @@
+{
+  "name": "portfolio-nextjs",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "deploy": "npm run build && gh-pages -d out"
+  },
+  "homepage": "https://<username>.github.io/<repository-name>",
+  "dependencies": {
+    "firebase": "^9.8.3",
+    "next": "12.1.6",
+    "next-pwa": "^5.6.0",
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
+    "react-icons": "^4.3.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "eslint": "8.15.0",
+    "eslint-config-next": "12.1.6",
+    "gh-pages": "^6.1.1",
+    "postcss": "^8.4.13",
+    "tailwindcss": "^3.0.24"
+  }
+}
