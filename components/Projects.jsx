@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
+import chatbot from '../public/assets/projects/chatbot.png';
 import propertyImg from '../public/assets/projects/gishe.png';
 import cryptoImg from '../public/assets/projects/i-motion.png'
 import netflixImg from '../public/assets/projects/paraf.png'
@@ -16,6 +17,12 @@ const Projects = () => {
         </p>
         <h2 className='py-4'>What I&apos;ve Built</h2>
         <div className='grid md:grid-cols-2 gap-8'>
+          <ProjectItem
+            title='AI-Powered Customer Support Chatbot'
+            backgroundImg={chatbot}
+            projectUrl='/chatbot'
+            tech='Next JS'
+          />
           <ProjectItem
             title='gisheh7'
             backgroundImg={propertyImg}
