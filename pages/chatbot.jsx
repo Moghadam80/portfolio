@@ -44,7 +44,7 @@ const chatbotPage = () => {
     Designed and developed the UI with <strong>Tailwind CSS</strong> for a clean, responsive user interface,
     and ensured the chat automatically scrolls to the latest message and animates bot typing.
   </p>
-  <p>
+  <p> 
     Stored conversation history in <strong>MongoDB</strong> for evaluation and improvement of the AI model.
   </p>
           <a
